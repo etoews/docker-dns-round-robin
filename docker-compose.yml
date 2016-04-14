@@ -21,7 +21,7 @@ services:
     networks:
       backend:
         aliases:
-          # All app servers be referred to by this alias with the backend network
+          # All app servers can be referred to by this alias on the backend network
           - apps
     expose:
       - 8080
